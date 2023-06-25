@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #3d4f6e;
+  padding-left: 500px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+ 
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(58, 95, 188);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+  .cd__intro {
+            background-image: url("C:/Users/yelam/websiteapp/images/background 1.png");
+            background-position: left top, right bottom;
+            height: 100%;
+            background-size: 100%;
+            
+  background-repeat: no-repeat;
+            } 
+  h1{
+    display: inline;
+    margin-left: 54px;
+    margin-bottom: 180px;
+    margin-top: 10px;
+    width: 100%;
+
+         
+ }
+ 
+
+  .index{
+    background-image: url("C:/Users/yelam/websiteapp/images/02.png");
+    background-repeat: no-repeat, no-repeat;
+    width: 100px;
+    height:35px;
+    margin-left: 600px;
+    padding: 13px;
+    margin-top: 25px;
+    
+}
+     p{
+        margin-left: 50px;
+        
+        text-align: center;
+        /* padding-bottom: 250px;
+        margin-bottom: 180px; */
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     } 
+
+
+
+     /* extra */
+
+/* CSS */
+.heading {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #212121;
+  
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -9999;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+
+
+.container-fluid {
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0px auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  padding: 2.5vh;
+  left: 500px;
+  position: absolute;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  z-index: 2;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+
+footer {
+  border-top: solid 1px;
+  background: rgba(50, 68, 103, 0.804);
+  width: 100%;
+  height: 70px;
+  
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  text-align: center;
+  
+} 
+
+
+
+

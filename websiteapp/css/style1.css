@@ -1,0 +1,87 @@
+.background-hero {
+    background-image: url("C:/Users/yelam/websiteapp/images/pageimg1.jpeg");
+    background-position: left top, right bottom; 
+    background-repeat: no-repeat, no-repeat; 
+    
+    background-size: 100% ;
+  }
+  
+  .hero-text-top {
+    /* width: 440px;
+    font-size: 100px;
+    font-family: "Bebas";
+    font-weight: 300;
+    color: #4d4d4d;
+    line-height: 1.079;
+    text-align: left;
+    position: absolute;
+    left: 380px;
+    top: 162px; */
+
+       font-size: 100px;
+        font-family: "Bebas";
+        font-weight: 300;
+        color: #4d4d4d;
+        line-height: 1.079;
+        text-align: left;
+        position: absolute;
+        left: 750px;
+        width: 440px;
+        font-stretch: extra-condensed;
+        border-radius: 20%;
+        top: 40px;
+  }
+  
+
+
+.nav_bar {
+margin: 0 auto;
+margin-top: 6px;
+margin-bottom: 6px;
+
+width: 1000px;
+}
+/* ALL NAVBAR GOES BELOW */
+
+.all_navigation li {
+list-style: none;
+display: inline-block;
+}
+.all_navigation{
+display: flex;
+height: 60px;
+align-items: center;
+}
+.nav_bar_links_ul{
+margin: 0;
+padding: 0;
+align-items: center;
+}
+.nav_bar_links_ul li {
+text-decoration: none;
+text-transform: uppercase;
+font-size: 16px;
+font-weight: 600;
+}
+.nav_bar_links_ul li,
+a {
+text-decoration: none;
+color: white;
+}
+
+
+.nav_bar_links_ul .menulinks li {
+margin-left: 60px;
+}
+.nav_bar_links_ul .twi {
+display: inline;
+}
+.menulinks {
+margin-left: 600px;
+}
+.twi:hover {
+color: #19191aef;
+}
+
+
+
